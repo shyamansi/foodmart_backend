@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.2.2", ">= 7.2.2.1"
+gem "rails", "~> 8.0.2"
 # Use sqlite3 as the database for Active Record
 #gem "sqlite3", ">= 1.4"
 # Use the Puma web server [https://github.com/puma/puma]
@@ -9,7 +9,7 @@ gem "puma", ">= 5.0"
 gem 'psych', '~> 2.0', '>= 2.0.17'
 gem 'ruby_llm'
 gem "rename"
-gem 'activestorage', '~> 7.2', '>= 7.2.2'
+gem 'activestorage', '~> 8.0'
 #add active storage gem for uploading images which having active_storage_blobs and active_storage_attachement
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
