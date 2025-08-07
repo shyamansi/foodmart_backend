@@ -6,7 +6,7 @@ gem "rails", "~> 7.2.2", ">= 7.2.2.1"
 #gem "sqlite3", ">= 1.4"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
-gem 'psych', '~> 2.0', '>= 2.0.17'
+gem 'psych', '~> 5.2'
 gem 'ruby_llm'
 gem "rename"
 gem 'activestorage', '~> 7.2', '>= 7.2.2'
