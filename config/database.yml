@@ -1,0 +1,21 @@
+railsdefault: &default
+  adapter: postgresql
+  encoding: unicode
+  username: postgres
+  password: Shyamansi#844
+  host: localhost
+  pool: 5
+
+development:
+  <<: *default
+  database: organix_app_development
+
+test:
+  <<: *default
+  database: organix_app_test
+
+production:
+  <<: *default
+  database: organix_app_production
+  username: your_production_username
+  password: <%= ENV['APP_DATABASE_PASSWORD'] %>
