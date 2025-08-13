@@ -9,7 +9,7 @@ gem "puma", ">= 5.0"
 gem 'psych', '~> 2.0', '>= 2.0.17'
 gem 'ruby_llm'
 gem "rename"
-gem 'activestorage', '~> 7.2', '>= 7.2.2'
+gem 'activestorage', '~> 7.2'
 #add active storage gem for uploading images which having active_storage_blobs and active_storage_attachement
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
